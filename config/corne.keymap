@@ -38,7 +38,7 @@
 &kp ESC         &kp EXCLAMATION  &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
 &kp LEFT_SHIFT  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &kp MINUS  &kp EQUAL      &kp TILDE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
 &kp GRAVE       &kp NUMBER_6     &kp NUMBER_7  &kp N8        &kp N9        &kp N0         &kp UNDER  &kp PLUS       &trans        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
-                                               &trans        &trans        &trans         &kp RET    &trans         &trans
+                                               &bootloader   &trans        &mo 1          &kp RET    &trans         &trans
             >;
         };
 
@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp F1      &kp F2        &kp F3        &kp F4             &kp F5           &kp F6              &trans   &trans          &kp UP_ARROW    &trans           &trans  &kp BSPC
-&kp F7      &kp F8        &kp F9        &kp F10            &kp F11          &kp F12             &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_PLAY_PAUSE    &trans   &trans          &trans          &trans           &trans  &trans
-                                        &trans             &trans           &trans              &kp RET  &trans          &trans
+&kp F1      &kp F2        &kp F3        &kp F4             &kp F5           &kp F6              &bootloader  &trans          &kp UP_ARROW    &trans           &trans  &kp BSPC
+&kp F7      &kp F8        &kp F9        &kp F10            &kp F11          &kp F12             &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_PLAY_PAUSE    &trans       &trans          &trans          &trans           &trans  &trans
+                                        &trans             &trans           &trans              &kp RET      &trans          &mo 2
             >;
         };
     };
